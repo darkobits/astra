@@ -20,7 +20,7 @@
     "start": "nps start"
   },
   "devDependencies": {
-    "@darkobits/ts": "^0.3.3",
+    "@darkobits/ts": "^0.13.15",
     "@darkobits/vsct": "^0.12.0",
     "@types/color": "^3.0.2"
   }
