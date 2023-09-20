@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.35](https://github.com/darkobits/astra/compare/v0.1.34...v0.1.35) (2023-09-20)
+
+
+### 🏗 Chores
+
+* **deps:** Update dependencies. ([8cfadc3](https://github.com/darkobits/astra/commit/8cfadc3b4547279f538fff08d9a2726f3c2e1eed))
+
 ## [0.1.34](https://github.com/darkobits/astra/compare/v0.1.33...v0.1.34) (2023-09-20)
 
 
