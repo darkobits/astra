@@ -1,4 +1,5 @@
 import { ThemeGenerator } from '@darkobits/vsct/dist/lib/theme';
+
 import { accentColor } from 'etc/color/common';
 
 

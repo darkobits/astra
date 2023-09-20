@@ -1,4 +1,5 @@
 import { ThemeGenerator } from '@darkobits/vsct/dist/lib/theme';
+
 import { primitiveOrange, seafoamGreen } from 'etc/color/common';
 import gitHub from 'etc/color/github-dark';
 

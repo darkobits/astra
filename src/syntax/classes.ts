@@ -1,4 +1,5 @@
 import { ThemeGenerator } from '@darkobits/vsct/dist/lib/theme';
+
 import gitHub from 'etc/color/github-dark';
 
 
@@ -17,7 +18,7 @@ void class TestClass extends Array {
   }
 };
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+ 
 export default (theme: ThemeGenerator, useItalic: boolean) => {
   theme.tokenColors.add({
     name: 'Classes / Support',

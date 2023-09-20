@@ -1,4 +1,5 @@
 import { ThemeGenerator } from '@darkobits/vsct/dist/lib/theme';
+
 import { keywordPurple } from 'etc/color/common';
 
 

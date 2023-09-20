@@ -24,7 +24,6 @@ import syntaxPunctuation from 'syntax/punctuation';
 import syntaxStrings from 'syntax/strings';
 import syntaxText from 'syntax/text';
 import syntaxTypes from 'syntax/types';
-
 import uiActivityBar from 'ui/activity-bar';
 import uiBadges from 'ui/badges';
 import uiBase from 'ui/base';

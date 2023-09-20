@@ -1,6 +1,7 @@
 import { ThemeGenerator } from '@darkobits/vsct/dist/lib/theme';
-import gitHub from 'etc/color/github-dark';
+
 import { accentColor } from 'etc/color/common';
+import gitHub from 'etc/color/github-dark';
 
 
 // ----- Activity Bar ----------------------------------------------------------

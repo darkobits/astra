@@ -1,27 +1,25 @@
 {
-  "name": "@darkobits/astra",
   "private": true,
+  "name": "@darkobits/astra",
   "description": "A VS Code theme.",
   "version": "0.1.30",
   "author": "darkobits",
-  "license": "WTFPL",
-  "homepage": "https://github.com/darkobits/astra/blob/master/README.md",
+  "license": "Hippocratic",
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/darkobits/astra"
+    "url": "git+https://github.com/darkobits/astra.git"
   },
   "engines": {
     "vscode": "^1.50.0",
-    "node": ">=12.0.0"
+    "node": ">=16"
   },
   "scripts": {
-    "build": "nps build",
-    "prepare": "nps prepare",
-    "start": "nps start"
+    "prepare": "nr prepare"
   },
   "devDependencies": {
-    "@darkobits/ts": "^0.3.3",
-    "@darkobits/vsct": "^0.12.0",
+    "@darkobits/ts": "~0.18.10",
+    "@darkobits/vsct": "0.13.0-beta.4",
     "@types/color": "^3.0.1"
   }
 }
