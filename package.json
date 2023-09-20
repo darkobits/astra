@@ -2,7 +2,7 @@
   "private": true,
   "name": "@darkobits/astra",
   "description": "A VS Code theme.",
-  "version": "0.1.32",
+  "version": "0.1.33",
   "author": "darkobits",
   "license": "Hippocratic",
   "type": "module",
