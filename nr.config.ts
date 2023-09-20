@@ -4,7 +4,8 @@ export default withDefaultPackageScripts(({ command, script }) => {
   script('postBuild', [
     command('vsct', { args: ['compile'] })
   ], {
-    group: 'Lifecycle'
+    group: 'Lifecycle',
+    description: '[hook] Compile the extension using VSCT.'
   });
 
   script('publish', [
@@ -12,6 +13,16 @@ export default withDefaultPackageScripts(({ command, script }) => {
     command('npm', { args: ['publish', './extension'] })
   ], {
     group: 'Lifecycle',
-    timing: true
+    description: 'Publish a new version of the extension.'
+  });
+
+  script('start', [
+    [
+      'script:build.watch',
+      command('vsct', { args: ['start'] })
+    ]
+  ], {
+    group: 'Development',
+    description: 'Continuously re-compile the extension.'
   });
 });

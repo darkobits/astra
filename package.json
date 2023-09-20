@@ -11,15 +11,16 @@
     "url": "git+https://github.com/darkobits/astra.git"
   },
   "engines": {
-    "vscode": "^1.50.0",
+    "vscode": "^1.63.0",
     "node": ">=16"
   },
   "scripts": {
-    "prepare": "nr prepare"
+    "prepare": "nr prepare",
+    "help": "nr --scripts"
   },
   "devDependencies": {
     "@darkobits/ts": "~0.18.10",
-    "@darkobits/vsct": "0.13.0-beta.6",
-    "@types/color": "^3.0.1"
+    "@darkobits/vsct": "0.13.0-beta.12",
+    "@types/color": "^3.0.4"
   }
 }
